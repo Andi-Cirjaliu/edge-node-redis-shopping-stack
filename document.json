@@ -20,7 +20,7 @@
     },
     {
       "description": "Navigate to the example:",
-      "exec": "ccd /home/student/projects/edge-node-redis-shopping-deploy"
+      "exec": "cd /home/student/projects/edge-node-redis-shopping-deploy"
     },
     {
       "description": "Setup skaffold default repository to the local one:",
