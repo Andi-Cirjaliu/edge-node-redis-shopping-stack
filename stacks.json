@@ -1,0 +1,23 @@
+{
+  "title": "Shopping list",
+  "description": "A sample Node.js and edcd database to try on operator playground",
+  "logo": "_images/stack.png",
+  "enabled": false,
+  "language": [
+    "NodeJs"
+  ],
+  "document": "data-logging-stack",
+  "stack_id": "shopping-list-redis-app-stack",
+  "type": "stack",
+  "categories": [
+    "Express",
+    "Frontend",
+    "Backend"
+  ],
+  "has_dataset": false,
+  "has_api": false,
+  "git_url": "https://github.com/Andi-Cirjaliu/edge-node-redis-shopping-deploy.git",
+  "git_commit": "",
+  "installTime": "10 minutes",
+  "isStacksSaved": true
+}

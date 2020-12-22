@@ -1,0 +1,65 @@
+{
+  "name": "Shopping list",
+  "description": "A sample Node.js and Redis database to try on operator playground",
+  "logo": "_images/stack.png",
+  "has_supporting_content": true,
+  "stack_id": "shopping-list-redis-app-stack",
+  "type": "stack",
+  "categories": [
+    "Express",
+    "Frontend",
+    "Backend"
+  ],
+  "tags": [],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "commands": [
+    {
+      "description": "Get sample code:",
+      "exec": "cd /home/student/projects && git clone https://github.com/Andi-Cirjaliu/edge-node-redis-shopping-deploy.git"
+    },
+    {
+      "description": "Navigate to the example:",
+      "exec": "ccd /home/student/projects/edge-node-redis-shopping-deploy"
+    },
+    {
+      "description": "Setup skaffold default repository to the local one:",
+      "exec": "skaffold config set default-repo localhost:5000"
+    },
+    {
+      "description": "Install and start the sample.",
+      "exec": "skaffold dev"
+    }
+  ],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ],
+  "deployment_information": {
+    "Operator Project": "NA",
+    "Deployment Namespace": "us-emp-stack"
+  },
+  "buckets": [],
+  "meta": {
+    "Install time": [
+      "10 minutes"
+    ],
+    "Language": [
+      "NodeJs"
+    ],
+    "Type":["Operators"],
+    "Tag": [],
+    "categories": [
+      "Express",
+      "Frontend",
+      "Backend"
+    ]
+  },
+  "content":[
+    "shopping-application-tutorial.md"
+ ],
+  "isDocumentSaved": true
+}
