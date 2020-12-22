@@ -76,7 +76,7 @@ skaffold dev
 
 Click on the Key icon on the dashboard and copy the value under the `DNS` section and `IP` field
 
-URL :  http://##DNS.ip##:30100
+URL :  http://##DNS.ip##:30200
 
 ### Deploy changes to Kubernetes in Dev Mode
 
